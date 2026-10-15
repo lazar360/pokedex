@@ -6,7 +6,9 @@ export default function RootLayout() {
           <Stack.Screen name="details" options = {{
             title : "Details",
             headerBackButtonDisplayMode : "generic",
-            
+            /*presentation: "formSheet",
+            sheetAllowedDetents:[0.3, 0.5, 0.7],
+            sheetGrabberVisible: true,*/
             }} />
          </Stack>;
 }
